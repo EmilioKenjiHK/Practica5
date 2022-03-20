@@ -23,7 +23,7 @@ Reutilizando la practica de html o css, conecta el formulario de contacto con un
 
   
 
-Para crear el site deseado, voy a reutilizar lo que había escrito en la Práctica 2 (con algunas mejoras que he aprendido a lo largo de este cuatrimestre). Prestaré ayuda de https://www.w3schools.com/html/ y https://getbootstrap.com/ para configurar y adaptar el código necesario a mis páginas.
+Para crear el site deseado, voy a reutilizar lo que había escrito en la Práctica 2 (con algunas mejoras que he aprendido a lo largo de este cuatrimestre). Prestaré ayuda de https://www.w3schools.com/html/ y https://spring.io/projects/spring-boot para configurar y adaptar el código necesario a mis páginas.
 
   
 
