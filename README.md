@@ -46,11 +46,9 @@ He añadido esto de extra a mi site:
 1) Uso de Spring boot para obtener datos de un API Rest (/dogs en Respuesta.html)
   
 
-### Todo se puede comprobar en mi Github de esta práctica:
+### ¿Como probar en el cloud?
 
-  
-
-https://github.com/EmilioKenjiHK/Practica5
+[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EmilioKenjiHK/Practica5)
 
   
 
