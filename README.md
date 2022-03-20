@@ -46,7 +46,7 @@ He añadido esto de extra a mi site:
 1) Uso de Spring boot para obtener datos de un API Rest (/dogs en Respuesta.html)
   
 
-### Todo se puede comprobar en mi Github page de esta práctica:
+### Todo se puede comprobar en mi Github de esta práctica:
 
   
 
