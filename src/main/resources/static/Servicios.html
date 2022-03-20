@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <!--
+        Servicios que ofrece Iberdrola y donde
+    -->
+    <head>
+        <!-- Tag meta obligatoria -->
+        <meta http-equiv=”Content-Type” content="text/html"; charset="UTF-8"/>
+
+        <!-- CSS Bootstrap -->
+        <link href = "./libs/boostrap.css" rel = "stylesheet">
+        
+        <title>IBERDROLA: Servicios</title>
+        <style>
+            #myBody{
+                margin: 10px 50px 10px 50px ;
+            }
+
+            #capaImagen{
+                position:absolute; z-index:1;
+            }
+
+            #capaTitulo{
+                position:relative; z-index:0;
+            }
+
+            h1 {text-align:center;}
+
+            table,th,td {border: 1px solid black; border-collapse: collapse; text-align: center; background-color: white;}
+
+        </style>
+    </head>
+    <body id = "myBody" style = "background-color: aliceblue;">
+
+        <div id = "capaImagen"></p><img src = "./resources/Logo.png" style="height:50px;width:100px;" align = "left"></div>
+
+        <div id = "capaTitulo"><h1>Servicios Disponibles</h1></div>
+
+        <br>
+
+        <p>Iberdrola innova el uso de renovables para la vida diaria de cualquiera persona. Actualmente operamos en estas zonas:
+        </p>
+
+        <p align = "center"><img src = "./resources/Operaciones.PNG" style = "height:400px;width:400px;"></p>
+
+        <p>Estos son algunos servicios disponibles en España:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Servicio</th>
+                    <th>Categoria</th>
+                    <th>Breve Descripción</th>
+                    <th>Precios</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--
+                    Smart Services
+                -->
+                <tr>
+                    <td>Protección Electrodomésticos 10</td>
+                    <td>Smart Services</td>
+                    <td>Cubre las reparaciones de los electrodomésticos y de la cocina y televisor (hasta 300€) para gastarte por año y electrodoméstico.
+                        Esto aplica a cualquier Cliente con contrato energético con Iberdrola Clientes.
+                    </td> 
+                    <td>5.95€ al mes</td>
+                    <td><a href = "https://www.iberdrola.es/luz/servicios/proteccion-electrodomesticos" target = "_blank">Protección Electrodomésticos 10</a></td>
+                </tr>
+                <tr>
+                    <td>Protección de Pagos Plus</td>
+                    <td>Smart Services</td>
+                    <td>Asegura el pago de facturas de un cliente en caso de desempleo u otras situaciones inesperadas 
+                        y de emergencia de diversa índole.
+                    </td> 
+                    <td>1.95€ al mes</td>
+                    <td><a href = "https://www.iberdrola.es/luz/facturacion/seguro-proteccion-pagos" target = "_blank">Protección de Pagos Plus</a></td>
+                </tr>
+
+                <!--
+                    Smart Mobility
+                -->
+                <tr>
+                    <td>Recarga en Casa</td>
+                    <td>Smart Mobility</td>
+                    <td>Iberdrola instala un cargador para tu coche eléctrico para que lo puedas recargar de manera cómoda y segura.</td> 
+                    <td>1427.80€ - 2625.70€ dependiendo de la instalación personal del Cliente</td>
+                    <td><a href = "https://www.iberdrola.es/smart-mobility/recarga-en-casa" target = "_blank">Recarga en Casa</a></td>
+                </tr>
+
+                <!--
+                    Smart Solar
+                -->
+                <tr>
+                    <td>Plan Solar</td>
+                    <td>Smart Solar</td>
+                    <td>Iberdrola compensa las horas en las que el Cliente no recibe energía solar de sus placas solares.</td> 
+                    <td>5.32€/kW al año o con energía consumida (entrar en el link para ver en más detalle)</td>
+                    <td><a href = "https://www.iberdrola.es/smart-solar/plan-solar" target = "_blank">Plan Solar</a></td>
+                </tr>
+
+                <!--
+                    Smart Home
+                -->
+                <tr>
+                    <td>Iluminación Smart</td>
+                    <td>Smart Home</td>
+                    <td>Permite al Cliente gestionar la iluminación de sus bombillas LED en casa. 
+                        Viene incluido 3 bombillas LED y un Puente (o Hub) en un kit.</td> 
+                    <td>129.95€</td>
+                    <td><a href = "https://www.iberdrola.es/smart-home/iluminacion" target = "_blank">Iluminación Smart</a></td>
+                </tr>
+                <tr>
+                    <td>Control Clima Smart</td>
+                    <td>Smart Home</td>
+                    <td>Permite al Cliente gestionar la temperatura de su casa (aire acondicionado) desde su móvil.</td> 
+                    <td>99€</td>
+                    <td><a href = "https://www.iberdrola.es/smart-home/control-clima-smart" target = "_blank">Control Clima Smart</a></td>
+                </tr>
+
+                <!--
+                    Smart Clima
+                -->
+                <tr>
+                    <td>Calderas y Calentadores de Gas</td>
+                    <td>Smart Clima</td>
+                    <td>Renovación de la caldera/calentador de gas con garantía total en el aparato ante cualquier imprevisto.</td> 
+                    <td>Precio de Instalación + 16€ al mes (mantenimiento)</td>
+                    <td><a href = "https://www.iberdrola.es/smart-clima/calderas-calentadores-gas" target = "_blank">Calderas y Calentadores de Gas</a></td>
+                </tr>
+                <tr>
+                    <td>Calderas y Calentadores Eléctricos</td>
+                    <td>Smart Clima</td>
+                    <td>La instalación de una caldera eléctrica a la casa del Cliente.</td> 
+                    <td>Precio de Instalación + 16€ al mes (mantenimiento)</td>
+                    <td><a href = "https://www.iberdrola.es/smart-clima/calderas-calentadores-electricos" target = "_blank">Calderas y Calentadores Eléctricos</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Para ver todos los servicios disponibles, entra en <a href = "https://www.iberdrola.es/servicios" target = "_blank">iberdrola.es/servicios</a>.</p>
+
+
+        <form action>
+            <p align = "middle"><button type = "submit" formaction = "index.html">Volver Atras</button></p>
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <!--
+        Cuestionario
+    -->
+    <head>
+        <!-- Tag meta obligatoria -->
+        <meta http-equiv=”Content-Type” content="text/html"; charset="UTF-8"/>
+
+        <!-- CSS Bootstrap -->
+        <link href = "./libs/boostrap.css" rel = "stylesheet">
+        
+        <title>IBERDROLA: Cuestionario</title>
+        <style>
+            #myBody{
+                margin: 50px;
+            }
+
+            h1 {text-align:center;}
+        </style>
+    </head>
+    <body id = "myBody" style = "background-color: aliceblue;">
+        <h1>Cuestionario</h1>
+
+        <form action = "send.html" method="post" id = "signup">
+            <div class = "field">
+                <label for="name">Nombre(s):</label>
+                <input type="text" id="name" name="name" placeholder="Nombre" size = "20" maxlength = "20">
+                <small></small>
+            </div>
+
+            <br> 
+
+            <div class = "field">
+                <label for="lname">Appellido(s):</label>
+                <input type="text" id="lname" name="lname" placeholder="Apellido" size = "20" maxlength = "20">
+                <small></small>
+            </div>
+
+            <br>
+
+            <div class = "field">
+                <label for="gender">Sexo:</label>
+                <select name="gender" id = "gender">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="prefiero no decir" selected="">Prefiero no decir</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div class = "field">
+                <label for="opinion">Opinión:</label>
+                <input type = "text" id = "opinion" name = "opinion" size = "100" maxlength ="100">
+                <small></small>
+            </div>
+
+            <br>
+
+            <p align = "middle">
+                <button type= "button" id = "submit" class = "btn btn-primary">Enviar</button>
+            </p>
+        </form>
+
+        <form action>
+            <p align = "middle">
+            <button type = "submit" formaction = "index.html">Volver Atras</button>
+            </p>
+
+            <br>
+
+            <p align = "middle">
+                <button type = "submit" formaction = "Respuesta.html" class = "btn btn-secondary">Respuestas Previas</button>
+            </p>
+
+        </form>
+
+    </body>
+    <script src = "./libs/jquery.js"></script>
+    <script src = "./libs/bootstrap.js"></script>
+    <script src = "./js/cuestionario.js"></script>
+
+</html>

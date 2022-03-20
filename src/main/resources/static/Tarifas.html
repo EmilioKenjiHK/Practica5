@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <!--
+        Las tarifas para el servicio de luz 
+    -->
+    <head>
+        <!-- Tag meta obligatoria -->
+        <meta http-equiv=”Content-Type” content="text/html"; charset="UTF-8"/>
+
+        <!-- CSS Bootstrap -->
+        <link href = "./libs/boostrap.css" rel = "stylesheet">
+        
+        <title>IBERDROLA: Tarifas</title>
+        <style>
+            #myBody{
+                margin: 10px 50px 10px 50px ;
+            }
+
+            #capaImagen{
+                position:absolute; z-index:1;
+            }
+
+            #capaTitulo{
+                position:relative; z-index:0;
+            }
+
+            h1 {text-align:center;}
+        </style>
+    </head>
+    <body id = "myBody" style = "background-color: aliceblue;">
+
+        <div id = "capaImagen"><img src = "./resources/Logo.png" style="height:50px;width:100px;" align = "left"></div>
+
+        <div id = "capaTitulo"><h1>Tarifas de Luz</h1></div>
+
+        <p>Aquí puedes ver el todos los planes posibles que ofrece Iberdrola:</p>
+
+        <p align = "center"><iframe name = "iframe" src = "https://www.companias-de-luz.com/iberdrola/tarifas/" style="height:500px;width:500px;" title = "Planes en España"></iframe></p>
+
+        <form action>
+            <p align = "middle"><button type = "submit" formaction = "index.html">Volver Atras</button></p>
+        </form>
+        
+    </body>
+</html>
